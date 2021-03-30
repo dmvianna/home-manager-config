@@ -1,6 +1,8 @@
 
 let
   polybarOpts = ''
+  xmobar &
+  stalonetray &
   pasystray &
   blueman-applet &
   nm-applet --sm-disable --indicator &
@@ -20,6 +22,7 @@ in
       extraPackages = hp: with hp; [
         dbus
         monad-logger
+        xmobar
         xmonad-contrib
       ];
       config = ./config.hs;
