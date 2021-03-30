@@ -1,6 +1,7 @@
 
 let
   polybarOpts = ''
+  startxfce4 &
   xmobar &
   stalonetray &
   pasystray &
