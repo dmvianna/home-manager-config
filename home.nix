@@ -7,25 +7,23 @@
     ./programs/xmonad/default.nix
   ];
 
+  xsession.enable = true;
+
+  home.packages = with pkgs; [
+    xfce.thunar
+    xfce.xfconf
+    xfce.tumbler
+    xfce.exo
+  ];
+
   programs.rofi = {
     enable = true;
     terminal = "${pkgs.alacritty}/bin/alacritty";
-    # theme = "solarized";
+    theme = "solarized";
+    pass = {
+      enable = true;
+    };
   };
-
-  # services.polybar = {
-  #   enable = true;
-  #   settings = {
-  #     "bar/top" = {
-  #       monitor = "${env:MONITOR:eDP1}";
-  #       width = "100%";
-  #       height = "3%";
-  #       radius = 0;
-  #       modules-center = "date";
-  #     };
-  #   };
-  #   script = "polybar bar &";
-  # };
 
   services.clipmenu = {
     enable = true;
@@ -34,11 +32,13 @@
   services.udiskie = {
     enable = true;
   };
-  
+
   services.blueman-applet = {
     enable = true;
   };
-  
+
+  services.pasystray.enable = true;
+
   services.stalonetray = {
     enable = true;
     config = {
