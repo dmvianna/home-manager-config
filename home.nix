@@ -16,6 +16,8 @@
     xfce.exo
   ];
 
+  programs.alacritty.enable = true;
+
   programs.rofi = {
     enable = true;
     terminal = "${pkgs.alacritty}/bin/alacritty";
