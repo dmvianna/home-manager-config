@@ -16,6 +16,10 @@
     xfce.exo
   ];
 
+  programs.autorandr = {
+    enable = true;
+  };
+
   programs.alacritty.enable = true;
 
   programs.rofi = {
