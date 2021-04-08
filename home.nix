@@ -42,25 +42,25 @@
 
   services.pasystray.enable = true;
 
-#   services.stalonetray = {
-#     enable = true;
-#     config = {
-#       decorations = null;
-#       transparent = false;
-#       dockapp_mode = null;
-#       geometry = "8x1-0+0";
-#       max_geometry = "8x1-325-10";
-#       background = "#000000";
-#       kludges = "force_icons_size";
-#       grow_gravity = "NE";
-#       icon_gravity = "NE";
-#       icon_size = 25;
-#       sticky = true;
-# # window_strut none
-#       window_type = "dock";
-#       window_layer = "bottom";
-#       no_shrink = false;
-#       skip_taskbar = true;
-#     };
-#   };
+  services.stalonetray = {
+    enable = true;
+    config = {
+      decorations = null;
+      transparent = false;
+      dockapp_mode = null;
+      geometry = "8x1-0+0";
+      max_geometry = "8x1-0+0";
+      background = "#000000";
+      kludges = "force_icons_size";
+      grow_gravity = "NE";
+      icon_gravity = "NE";
+      icon_size = 25;
+      sticky = true;
+window_strut = null;
+      window_type = "dock";
+      window_layer = "top";
+      no_shrink = false;
+      skip_taskbar = true;
+    };
+  };
 }
