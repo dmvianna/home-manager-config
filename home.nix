@@ -10,11 +10,15 @@
   # xsession.enable = true;
 
   home.packages = with pkgs; [
+    blueman
+    clipmenu
+    libreoffice
+    pasystray
+    udiskie
     xfce.thunar
     xfce.xfconf
     xfce.tumbler
     xfce.exo
-    libreoffice
   ];
 
   programs.alacritty.enable = true;
@@ -28,39 +32,4 @@
     };
   };
 
-  services.clipmenu = {
-    enable = true;
-  };
-
-  services.udiskie = {
-    enable = true;
-  };
-
-  services.blueman-applet = {
-    enable = true;
-  };
-
-  services.pasystray.enable = true;
-
-  services.stalonetray = {
-    enable = true;
-    config = {
-      decorations = null;
-      transparent = false;
-      dockapp_mode = null;
-      geometry = "8x1-0+0";
-      max_geometry = "8x1-0+0";
-      background = "#000000";
-      kludges = "force_icons_size";
-      grow_gravity = "NE";
-      icon_gravity = "NE";
-      icon_size = 25;
-      sticky = true;
-window_strut = null;
-      window_type = "dock";
-      window_layer = "top";
-      no_shrink = false;
-      skip_taskbar = true;
-    };
-  };
 }
