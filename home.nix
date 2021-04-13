@@ -14,6 +14,7 @@
     clipmenu
     libreoffice
     pasystray
+    poetry
     udiskie
     xfce.thunar
     xfce.xfconf
