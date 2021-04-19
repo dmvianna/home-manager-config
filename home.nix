@@ -4,6 +4,7 @@
 {
   # programs.home-manager.enable = true;
   imports = [
+    ./programs/vscode/default.nix
     # ./programs/xmonad/default.nix
   ];
 
