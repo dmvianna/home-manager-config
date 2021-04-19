@@ -4,7 +4,7 @@
 {
   # programs.home-manager.enable = true;
   imports = [
-    ./programs/vscode/default.nix
+    # ./programs/vscode/default.nix
     # ./programs/xmonad/default.nix
   ];
 
@@ -16,7 +16,9 @@
     libreoffice
     pasystray
     poetry
+    rnix-lsp
     udiskie
+    vscode
     xfce.thunar
     xfce.xfconf
     xfce.tumbler
