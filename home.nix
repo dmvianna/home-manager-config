@@ -25,7 +25,7 @@
     xfce.exo
   ];
 
-  programs.alacritty.enable = true;
+  # programs.alacritty.enable = true;
 
   programs.rofi = {
     enable = true;
