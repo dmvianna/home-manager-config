@@ -31,9 +31,9 @@
     enable = true;
     terminal = "${pkgs.alacritty}/bin/alacritty";
     theme = "solarized";
-    pass = {
-      enable = true;
-    };
+    # pass = {
+    #   enable = true;
+    # };
   };
 
 }
