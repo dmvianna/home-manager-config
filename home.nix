@@ -13,6 +13,7 @@
   home.packages = with pkgs; [
     blueman
     clipmenu
+    gimp
     libreoffice
     pasystray
     poetry
