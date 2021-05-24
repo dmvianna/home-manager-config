@@ -11,13 +11,16 @@
   # xsession.enable = true;
 
   home.packages = with pkgs; [
+    arandr
     blueman
     clipmenu
     gimp
+    home-manager
     libreoffice
     pasystray
     poetry
     rnix-lsp
+    shutter
     udiskie
     vscode
     xfce.thunar
