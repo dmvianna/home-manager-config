@@ -16,13 +16,15 @@
     clipmenu
     gimp
     home-manager
+    imagemagick
+    jq
     libreoffice
     pasystray
     poetry
     rnix-lsp
-    shutter
     udiskie
     vscode
+    xclip
     xfce.thunar
     xfce.xfconf
     xfce.tumbler
