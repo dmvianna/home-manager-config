@@ -19,6 +19,7 @@
     imagemagick
     jq
     libreoffice
+    maim
     pasystray
     poetry
     rnix-lsp
