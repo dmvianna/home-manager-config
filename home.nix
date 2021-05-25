@@ -30,6 +30,9 @@
     xfce.xfconf
     xfce.tumbler
     xfce.exo
+    (with haskellPackages; [
+      # i3blocks-hs-contrib
+    ])
   ];
 
   # programs.alacritty.enable = true;
