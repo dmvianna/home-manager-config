@@ -14,6 +14,7 @@
     arandr
     blueman
     clipmenu
+    dbeaver
     gimp
     home-manager
     imagemagick
