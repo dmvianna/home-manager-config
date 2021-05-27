@@ -31,6 +31,7 @@
     xfce.xfconf
     xfce.tumbler
     xfce.exo
+    zathura
   ];
 
   # programs.alacritty.enable = true;
