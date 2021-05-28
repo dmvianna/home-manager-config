@@ -19,11 +19,13 @@
     home-manager
     imagemagick
     jq
+    kubectl
     libreoffice
     maim
     pasystray
     poetry
     rnix-lsp
+    terraform
     udiskie
     vscode
     xclip
